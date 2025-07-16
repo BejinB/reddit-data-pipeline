@@ -4,27 +4,8 @@
 
 This project is a fully orchestrated, production-style data pipeline built to extract Reddit post data, transform it, and visualize insights using various AWS services. The pipeline simulates a real-world scenario by integrating tools for scheduling, processing, storing, and visualizing data at scale.
 ## 🛠️Architecture
-Reddit API (via PRAW)
-        ↓
-Airflow DAG (Scheduled Extract)
-        ↓
-PostgreSQL (Raw data storage)
-        ↓
-Airflow + Celery Executor (Task orchestration inside Docker)
-        ↓
-PySpark Job (Data Transformation)
-        ↓
-AWS S3 (Raw & Transformed data storage)
-        ↓
-AWS Glue Job (Further transformation/cleaning)
-        ↓
-AWS Glue Crawler (Schema discovery, creates Data Catalog tables)
-        ↓
-AWS Athena (Query data from S3 and validate)
-        ↓
-Load into AWS Redshift (Native tables)
-        ↓
-Amazon QuickSight (Visualization & Dashboard)
+![clickstream](https://github.com/user-attachments/assets/7a7a1943-42dd-4fe9-bed7-1df905546dbd)
+
 
 ## 🧪Tech Stack
 - **Apache Airflow** – Workflow orchestration
