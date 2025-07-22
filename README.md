@@ -4,7 +4,8 @@
 
 This project is a fully orchestrated, production-style data pipeline built to extract Reddit post data, transform it, and visualize insights using various AWS services. The pipeline simulates a real-world scenario by integrating tools for scheduling, processing, storing, and visualizing data at scale.
 ## 🛠️Architecture
-<img width="1524" height="529" alt="Reddit flow" src="https://github.com/user-attachments/assets/3335ff82-7d6d-4ed4-a378-dcc1f312224c" />
+<img width="1524" height="529" alt="Reddit flow1" src="https://github.com/user-attachments/assets/098f6ffa-b2be-46e6-9e7e-5dbb32259c53" />
+
 
 
 
