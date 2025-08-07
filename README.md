@@ -11,7 +11,9 @@ This project is a fully orchestrated, production-style data pipeline built to ex
 
 
 ## 🧪Tech Stack
+- **PRAW** (Python Reddit API Wrapper) – Reddit data extraction
 - **Apache Airflow** – Workflow orchestration
+- **Docker** – Containerization & environment setup
 - **Celery** – Distributed task queue
 - **PostgreSQL** – Intermediate database
 - **AWS S3** – Data lake (raw & transformed storage)
@@ -20,8 +22,8 @@ This project is a fully orchestrated, production-style data pipeline built to ex
 - **AWS Athena** – SQL querying on S3
 - **Amazon Redshift** – Data warehousing
 - **Amazon QuickSight** – Data visualization
-- **Docker** – Containerization & environment setup
-- **PRAW** (Python Reddit API Wrapper) – Reddit data extraction
+
+
 
 ## 🔄Workflow Overview
 #### 1️⃣Docker Setup for Local Development
